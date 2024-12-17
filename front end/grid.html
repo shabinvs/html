@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            width: 400px;
+            grid-template-columns: auto auto auto auto;
+            background-color: rgb(216, 219, 222);
+            gap: 10px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .divc{
+            background-color: aqua;
+            padding: 30px;
+        }
+
+        .div1{
+            grid-column: 1/5;
+            padding: 30px;
+            background-color: white;
+        }
+
+        .div18{
+            grid-column: 1/5;
+            background-color: aqua;
+            padding: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="div1"></div>
+        <div class="divc">1</div>
+        <div class="divc">2</div>
+        <div class="divc">3</div>
+        <div class="divc">+</div>
+        <div class="divc">4</div>
+        <div class="divc">5</div>
+        <div class="divc">6</div>
+        <div class="divc">-</div>
+        <div class="divc">7</div>
+        <div class="divc">8</div>
+        <div class="divc">9</div>
+        <div class="divc">x</div>
+        <div class="divc">CE</div>
+        <div class="divc">0</div>
+        <div class="divc">.</div>
+        <div class="divc">/</div>
+        <div class="div18">=</div>
+    </div>
+</body>
+</html>
